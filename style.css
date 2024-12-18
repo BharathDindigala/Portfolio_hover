@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+	font-family: 'Exo', sans-serif;
+	background: linear-gradient(135deg, #24006b, #f42f8c);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/* Card Styles */
+.card {
+	border: none;
+	border-radius: 15px;
+	background: #f8f9fa;
+	color: #111;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+	font-weight: 600;
+	color: #24006b;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul ul {
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #f42f8c;
+}
+
+a:hover {
+	color: #fff;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-top: 3px solid #fff;
+}
+
+footer p {
+	font-size: 1rem;
+}
